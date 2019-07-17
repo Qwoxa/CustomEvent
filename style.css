@@ -1,0 +1,32 @@
+
+#statistics {
+    padding: 10px;
+}
+
+
+#statistics table {
+    border-collapse: collapse;
+    width: 200px;
+    text-align: center;
+}
+
+
+#statistics table tr, #statistics table td {
+    border: 1px solid black;
+}
+
+
+#published-articles {
+    padding: 10px 15px;
+}
+
+
+#stop-publishing {
+    margin: 0 10px;
+    padding: 10px 15px;
+}
+
+
+.signature {
+  text-align: right;
+}
