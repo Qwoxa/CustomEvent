@@ -1,6 +1,6 @@
 /**
  * In the global space the timer key for clearTimeout and authorsList will
- * will available as a properties of Touratte object.
+ * be available as a properties of Touratte object.
  */
 const Touratte = (function() {
     // list of authours with unique IDs
@@ -54,7 +54,7 @@ const Touratte = (function() {
     
     /**
      * Generates random text, using characters from range 1040 - 1103
-     * @params {Number} len The length of the text.
+     * @param {Number} len The length of the text.
      * @return {String} The randomly generated text.
      */
     function generateText(len) {
@@ -71,8 +71,8 @@ const Touratte = (function() {
     
     /**
      * Generates random integers within the specified range.
-     * @params {Number} min The lower bound of the random number.
-     * @params {Number} The The upper bound of the random number.
+     * @param {Number} min The lower bound of the random number.
+     * @param {Number} The The upper bound of the random number.
      * @return {Number} The randomly generated number.
      */
     function randInt(min, max) {
